@@ -58,7 +58,7 @@ document.addEventListener('keydown', event => {
 			const seconds = Math.floor(elapsedTime / 1000)
 			const charactersPerMinute = Math.round((text.length / seconds) * 60)
 			// вывод результатов
-			resultContainer.textContent = `Время: ${seconds} секунд. Скорость: ${charactersPerMinute} символов в минуту.`
+			resultContainer.textContent = `Время: ${seconds} секунд.Скорость: ${charactersPerMinute} символов в минуту.`
 			// отображение кнопки перезапуска
 			restartButton.style.display = 'block'
 		}

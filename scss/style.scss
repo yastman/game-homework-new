@@ -1,52 +1,70 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: Roboto, serif;
-	background-color: #55c5ff;
-	text-align: center;
-	padding: 20px 100px;
+  font-family: Roboto, serif;
+  background-color: #55c5ff;
+  text-align: center;
+  padding: 20px 100px;
 }
 
 .app {
-	padding: 20px 100px;
+  padding: 20px 100px;
 
-	h1 {
-		color: black;
-		font-size: 48px;
-		margin-bottom: 20px;
-		text-align: center;
-	}
+  h1 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-	p {
-		font-size: 20px;
-		margin-bottom: 20px;
-		display: flex;
-		text-align: center;
-	}
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+  }
 
-	#text {
-		margin-bottom: 20px;
-		padding: 10px;
-		border: 1px solid #ddd;
-		border-radius: 5px;
-		background-color: #fff;
-		font-size: 27px;
+  #text {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 27px;
 
-		span.str_in {
-			color: #ff0000;
-			font-weight: bold;
-		}
+    span.str_in {
+      color: #ff0000;
+      font-weight: bold;
+    }
 
-		span.str_out {
-			color: #cedee5;
-		}
-	}
+    span.str_out {
+      color: #cedee5;
+    }
+  }
 
-	#result {
-		font-family: Roboto, serif;
-	}
+  #result {
+    font-family: Roboto, serif;
+    font-size: 20px;
+	  margin-bottom: 20px;
+  }
+
+  button#restart {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: cyan;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+
+    &:hover {
+      background-color: #005249;
+    }
+  }
 }

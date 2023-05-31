@@ -49,6 +49,24 @@ body {
 
 .app #result {
   font-family: Roboto, serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.app button#restart {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: cyan;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.app button#restart:hover {
+  background-color: #005249;
 }
 
 
