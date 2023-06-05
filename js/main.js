@@ -21,14 +21,15 @@ let timeStart = false
 let goodNumbers = 0
 
 // Получение случайного индекса
+
 Array.prototype.random = function () {
 	let index = Math.floor(Math.random() * this.length)
-	console.log(index)
 	return index
 }
 let indexText = texts.random()
 
 // Рендер текста
+
 function renderText() {
 	textsArray.innerHTML = texts[indexText]
 		.split('')
@@ -58,19 +59,20 @@ function stopTimer() {
 }
 
 // событие по клику на любую клавишу
-document.addEventListener('keydown', event => {
+document.addEventListener('keydown', (event) => {
 	if (event.key === texts[indexText][currentIndex]) {
 		currentIndex++
 		goodNumbers++
+		console.log(goodNumbers)
 		renderText()
 		if (!timeStart) {
 			startTimer()
 			timeStart = true
 		}
 	}
-
 	if (currentIndex === texts[indexText].length) {
 		let totalTime = stopTimer()
+		console.log(totalTime)
 		let wpm = Math.round(goodNumbers / (totalTime / 60))
 		result.innerHTML = `Скорость набора: ${wpm}. Время: ${totalTime} секунд`
 		timeStart = false

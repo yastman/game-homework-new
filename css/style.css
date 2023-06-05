@@ -14,19 +14,16 @@ body {
 .app {
   padding: 20px 100px;
 }
-
 .app h1 {
   color: black;
   font-size: 48px;
   margin-bottom: 20px;
   text-align: center;
 }
-
 .app p {
   font-size: 20px;
   margin-bottom: 20px;
 }
-
 .app #text {
   margin-bottom: 20px;
   padding: 10px;
@@ -35,22 +32,18 @@ body {
   background-color: #fff;
   font-size: 27px;
 }
-
 .app #text span.str_in {
   color: #ff0000;
   font-weight: bold;
 }
-
 .app #text span.str_out {
   color: #cedee5;
 }
-
 .app #result {
   font-family: Roboto, serif;
   font-size: 20px;
   margin-bottom: 20px;
 }
-
 .app button#restart {
   padding: 10px 20px;
   font-size: 1.2em;
@@ -62,11 +55,8 @@ body {
   margin: auto;
   display: none;
 }
-
 .app button#restart:hover {
   background-color: #005249;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
